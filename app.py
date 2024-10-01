@@ -22,5 +22,9 @@ def galeria():
 def programacion():
     return render_template('programacion.html')
 
+@app.route('/3d')
+def diseño():
+    return render_template('diseño.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
